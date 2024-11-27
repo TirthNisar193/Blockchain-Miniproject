@@ -97,10 +97,10 @@ function AddMed() {
                     <span onClick={redirect_to_home} className="btn btn-outline-danger btn-sm" style={styles.homeButton}>HOME</span>
                 </div>
                 <br />
-                <h5>Add Battery Order:</h5>
+                <h5>Add medicine Order:</h5>
                 <form onSubmit={handlerSubmitMED} style={styles.form}>
-                    <input className="form-control-sm" type="text" onChange={handlerChangeNameMED} placeholder="Battery Name" required />
-                    <input className="form-control-sm" type="text" onChange={handlerChangeDesMED} placeholder="Battery Description" required />
+                    <input className="form-control-sm" type="text" onChange={handlerChangeNameMED} placeholder="medicine Name" required />
+                    <input className="form-control-sm" type="text" onChange={handlerChangeDesMED} placeholder="medicine Description" required />
                     <button className="btn btn-outline-success btn-sm" style={styles.submitButton}>Order</button>
                 </form>
                 <br />
